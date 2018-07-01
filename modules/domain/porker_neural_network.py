@@ -1,6 +1,5 @@
 import os, sys, argparse
 from os import path
-import pickle
 import numpy as np
 import tensorflow as tf
 from sklearn.cross_validation import train_test_split
