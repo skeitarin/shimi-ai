@@ -1,10 +1,6 @@
 from flask import Flask, render_template, request
 
-import multiprocessing as mp
-import tensorflow as tf
-
 import os, sys
-import numpy as np
 path = os.path.join(os.path.dirname(__file__), '../')
 sys.path.append(path)
 import modules.domain.index as d_index
